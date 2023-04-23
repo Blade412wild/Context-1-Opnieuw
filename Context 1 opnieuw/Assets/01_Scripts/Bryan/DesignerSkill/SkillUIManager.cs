@@ -25,10 +25,10 @@ namespace _01_Scripts.Bryan.DesignerSkill
 
         private void ConfigurePlayer()
         {
-            _speedRow.Configure("Speed", OnClickIncreaseSpeed, OnClickDecreaseSpeed);
-            _jumpRow.Configure("Jump", OnClickIncreaseJump, OnClickDecreaseJump);
+            _speedRow.Configure("Speed: " + _player.MoveSpeed, OnClickIncreaseSpeed, OnClickDecreaseSpeed);
+            _jumpRow.Configure("Jump height: " + _player.JumpHeight, OnClickIncreaseJump, OnClickDecreaseJump);
 
-            _gravityRow.Configure("Gravity", OnClickIncreaseGravity, OnClickDecreaseGravity);
+            _gravityRow.Configure("Gravity: " + _player.Gravity, OnClickIncreaseGravity, OnClickDecreaseGravity);
         }
         ////////////////////////////////////////////////////////////////////////////////////////////
         /// SPEED SKILL
@@ -52,14 +52,14 @@ namespace _01_Scripts.Bryan.DesignerSkill
         {
             _player.JumpHeight -= 1;
             _player.JumpHeight = Mathf.Clamp(_player.JumpHeight, 1f, 10f);
-            _jumpRow.ConfigureLabel("JumpHeight: " + _player.JumpHeight);
+            _jumpRow.ConfigureLabel("Jump height: " + _player.JumpHeight);
         }
 
         private void OnClickIncreaseJump()
         {
             _player.JumpHeight += 1;
             _player.JumpHeight = Mathf.Clamp(_player.JumpHeight, 1f, 10f);
-            _jumpRow.ConfigureLabel("JumpHeight: " + _player.JumpHeight);
+            _jumpRow.ConfigureLabel("Jump height: " + _player.JumpHeight);
         }
         
         ////////////////////////////////////////////////////////////////////////////////////////////
