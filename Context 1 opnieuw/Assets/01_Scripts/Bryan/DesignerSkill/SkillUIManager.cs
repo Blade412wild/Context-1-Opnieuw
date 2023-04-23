@@ -1,7 +1,7 @@
 using StarterAssets.ThirdPersonController.Scripts;
 using UnityEngine;
 
-namespace _01_Scripts.Bryan
+namespace _01_Scripts.Bryan.DesignerSkill
 {
     public class SkillUIManager : MonoBehaviour
     {

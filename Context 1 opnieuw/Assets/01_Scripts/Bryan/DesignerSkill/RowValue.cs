@@ -1,10 +1,9 @@
-﻿using System;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace _01_Scripts.Bryan
+namespace _01_Scripts.Bryan.DesignerSkill
 {
     public class RowValue : MonoBehaviour
     {
