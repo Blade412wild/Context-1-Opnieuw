@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 namespace _01_Scripts.Bryan.DeveloperSkill
 {
@@ -15,13 +16,19 @@ namespace _01_Scripts.Bryan.DeveloperSkill
         private void OnTriggerEnter(Collider other)
         {
             CharacterController player = other.GetComponent<CharacterController>();
+            CharacterSwitch characterSwitch = other.GetComponent<CharacterSwitch>();
                 
             if (player == null)
             {
                 return;
             }
 
-            _onTriggered?.Invoke();
+            if (characterSwitch.DevState == true)
+            {
+                _onTriggered?.Invoke();
+
+            }
+            //_onTriggered?.Invoke();
         }
     }
 }
