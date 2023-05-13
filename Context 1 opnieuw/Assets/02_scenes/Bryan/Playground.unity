@@ -348,8 +348,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 184352697}
   _meshFilter: {fileID: 184352698}
   Index: 15
@@ -478,8 +476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 194579165}
   _meshFilter: {fileID: 194579166}
   Index: 3
@@ -608,8 +604,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 219120017}
   _meshFilter: {fileID: 219120018}
   Index: 8
@@ -1347,8 +1341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 556236010}
   _meshFilter: {fileID: 556236011}
   Index: 9
@@ -1618,8 +1610,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 651578518}
   _meshFilter: {fileID: 651578519}
   Index: 5
@@ -2238,8 +2228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 795793389}
   _meshFilter: {fileID: 795793390}
   Index: 11
@@ -3688,8 +3676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1007474621}
   _meshFilter: {fileID: 1007474622}
   Index: 6
@@ -3818,8 +3804,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1008067700}
   _meshFilter: {fileID: 1008067701}
   Index: 12
@@ -4609,8 +4593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1224265117}
   _meshFilter: {fileID: 1224265118}
   Index: 1
@@ -5606,8 +5588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1418186334}
   _meshFilter: {fileID: 1418186335}
   Index: 7
@@ -6100,8 +6080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1470411312}
   _meshFilter: {fileID: 1470411313}
   Index: 4
@@ -6451,8 +6429,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1532275200}
   _meshFilter: {fileID: 1532275201}
   Index: 0
@@ -6515,8 +6491,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1551598683}
   _meshFilter: {fileID: 1551598684}
   Index: 2
@@ -8113,8 +8087,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1914146759}
   _meshFilter: {fileID: 1914146760}
   Index: 14
@@ -8243,8 +8215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1931700231}
   _meshFilter: {fileID: 1931700232}
   Index: 10
@@ -8373,8 +8343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ca8ca170d34214a325f8d93659a31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _falseMaterial: {fileID: 2100000, guid: ddce088ff92251d49bfc0910968ae73c, type: 2}
-  _trueMaterial: {fileID: 2100000, guid: 9a0b891257bcb6245ae505753111f12d, type: 2}
   _meshRenderer: {fileID: 1967045136}
   _meshFilter: {fileID: 1967045137}
   Index: 13
