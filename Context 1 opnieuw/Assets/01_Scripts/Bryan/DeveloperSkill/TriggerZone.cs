@@ -1,4 +1,5 @@
 using System;
+using StarterAssets.ThirdPersonController.Scripts;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
@@ -26,7 +27,6 @@ namespace _01_Scripts.Bryan.DeveloperSkill
             if (characterSwitch.DevState == true)
             {
                 _onTriggered?.Invoke();
-
             }
             //_onTriggered?.Invoke();
         }
