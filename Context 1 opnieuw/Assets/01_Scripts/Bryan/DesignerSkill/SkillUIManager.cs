@@ -51,14 +51,14 @@ namespace _01_Scripts.Bryan.DesignerSkill
         private void OnClickDecreaseJump()
         {
             _player.JumpHeight -= 1;
-            _player.JumpHeight = Mathf.Clamp(_player.JumpHeight, 1f, 10f);
+            _player.JumpHeight = Mathf.Clamp(_player.JumpHeight, 1f, 8f);
             _jumpRow.ConfigureLabel("Jump height: " + _player.JumpHeight);
         }
 
         private void OnClickIncreaseJump()
         {
             _player.JumpHeight += 1;
-            _player.JumpHeight = Mathf.Clamp(_player.JumpHeight, 1f, 10f);
+            _player.JumpHeight = Mathf.Clamp(_player.JumpHeight, 1f, 8f);
             _jumpRow.ConfigureLabel("Jump height: " + _player.JumpHeight);
         }
         
@@ -67,14 +67,14 @@ namespace _01_Scripts.Bryan.DesignerSkill
         private void OnClickDecreaseGravity()
         {
             _player.Gravity -= 1;
-            _player.Gravity = Mathf.Clamp(_player.Gravity, -20f, -1f);
+            _player.Gravity = Mathf.Clamp(_player.Gravity, -20f, -10f);
             _gravityRow.ConfigureLabel("Gravity: " + _player.Gravity);
         }
 
         private void OnClickIncreaseGravity()
         {
             _player.Gravity += 1;
-            _player.Gravity = Mathf.Clamp(_player.Gravity, -20f, -1f);
+            _player.Gravity = Mathf.Clamp(_player.Gravity, -20f, -10f);
             _gravityRow.ConfigureLabel("Gravity: " + _player.Gravity);
         }
 
