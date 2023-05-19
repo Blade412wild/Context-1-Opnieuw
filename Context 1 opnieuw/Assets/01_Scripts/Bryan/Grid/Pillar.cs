@@ -10,7 +10,6 @@ namespace _01_Scripts.Bryan.Grid
         [SerializeField] private MeshRenderer _meshRenderer;
         [SerializeField] private MeshFilter _meshFilter;
 
-        
         private MeshSwapModel _model;
 
         public int Index;
@@ -20,11 +19,17 @@ namespace _01_Scripts.Bryan.Grid
         private void OnTriggerEnter(Collider other)
         {
             CharacterSwitch characterSwitch = other.GetComponent<CharacterSwitch>();
+
+            if (characterSwitch == null)
+            {
+                return;
+            }
+            
             if (characterSwitch.ArtState == true) 
             {
                 _onPillarActivatedHandler?.Invoke(Index);
             }
-           // _onPillarActivatedHandler?.Invoke(Index);
+            // _onPillarActivatedHandler?.Invoke(Index);
         }
 
         public void AddPillarActivatedHandler(Action<int> onPillarActivatedHandler)
