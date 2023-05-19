@@ -6,17 +6,17 @@ using UnityEngine;
 
 public class CharacterSwitch : MonoBehaviour
 {
-    [Header("refrences")] 
+    [Header("References")] 
     public GameObject SkillCanvas;
 
-    [Header("bools")] 
+    [Header("Bools")] 
     public bool DevState;
     public bool ArtState;
     public bool DesState;
     public bool NormState;
 
 
-    [Header("variable")] public GameObject Norm;
+    [Header("Variable")] public GameObject Norm;
     public GameObject Dev;
     public GameObject Art;
     public GameObject Des;
