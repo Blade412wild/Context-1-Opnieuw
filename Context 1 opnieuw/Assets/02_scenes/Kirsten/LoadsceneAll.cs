@@ -22,6 +22,6 @@ public class LoadsceneAll : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("GOGOGOGO SCENE");
-        SceneManager.LoadScene("Eind scene");
+        SceneManager.LoadScene("Victory screen");
     }
 }
